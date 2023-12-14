@@ -1,4 +1,5 @@
-a = imread('1.jpg');
+a = imread('with_stone.jpg');
+%%a = imread('without_stone.jpg');
 subplot(4,3,1);imshow(a);
 b=rgb2gray(a);
 subplot(4,3,2);imshow(b);
